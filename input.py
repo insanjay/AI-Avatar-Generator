@@ -1,0 +1,1 @@
+user_input = input("Type your idea:\n")
