@@ -1,12 +1,12 @@
 import os
-from input import user_input
+from input_services.text_input import script
 from gtts import gTTS
 import pyttsx3
 
 # pyttsx3 for speaking(optional)
 engine = pyttsx3.init()
 
-prompt = user_input
+prompt = script
 
 engine.say(prompt)
 engine.runAndWait()
