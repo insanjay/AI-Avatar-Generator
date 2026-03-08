@@ -1,0 +1,6 @@
+# AI Avatar Generator Dependencies
+# Generated from pyproject.toml
+# Install with: pip install -r requirements.txt
+
+pyttsx3
+gTTS
